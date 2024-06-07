@@ -13,6 +13,8 @@ async function seedUsers(client) {
     // Create the "users" table if it doesn't exist
     // change 1
     // change 2
+    // change 3
+    // change 4
     const createTable = await client.sql`
       CREATE TABLE IF NOT EXISTS users (
         id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
